@@ -3,19 +3,21 @@
     {
       "port": 8080,
       "listen":"::",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "clients": [
           {
-            "id": "f011c012-5f1d-418c-9494-d24d77a9d8f9",
-            "alterId": 520
+            "id": "e172cca6-4fcc-46a2-ab36-abf3eba090ee",
+            "alterId": 0,
+            "flow": ""
           }
-        ]
+        ],
+        "decryption": "none"
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-        "path": "/xiaonuo"
+        "path": "/sxiaonuo"
         }
       }
     }
